@@ -215,15 +215,4 @@ bot.on("callback_query", (q) => {
 
   bot.sendMessage(id, "💰 Выбери ставку", betMenu());
   bot.answerCallbackQuery(q.id);
-});{
-  "name": "casino-bot",
-  "version": "1.0.0",
-  "description": "Telegram casino bot",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "telegraf": "^4.12.2"
-  }
-}Commit changes
+
