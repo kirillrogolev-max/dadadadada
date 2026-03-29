@@ -215,4 +215,4 @@ bot.on("callback_query", (q) => {
 
   bot.sendMessage(id, "💰 Выбери ставку", betMenu());
   bot.answerCallbackQuery(q.id);
-
+});
